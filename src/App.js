@@ -3,7 +3,7 @@ import React from "react";
 class App extends React.Component {
   constructor(props){
     super(props);
-    this.state = {url: "ここにリンクがくるほげ",}
+    this.state = {url: "ここにリンクがくる",}
   }
 
   randomInt(min,max){
@@ -22,10 +22,12 @@ class App extends React.Component {
 
   render(){
     return(
-      <dev>
-        <a href={this.state.url}>{this.state.url}</a>
+      <div>
+        <h3>AtCoder URL Maker</h3>
+        <p>令和ABCのA~C問題のURLがランダムに生成されます</p>
+        <div><a href={this.state.url}>{this.state.url}</a></div>
         <button onClick={() => {this.handleClick()}}>リンク生成</button>
-      </dev>
+      </div>
     );
   }
 }
