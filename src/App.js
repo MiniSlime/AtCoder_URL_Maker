@@ -13,8 +13,8 @@ class App extends React.Component {
   }
 
   handleClick(){
-    const contest = this.randomInt(126,187);
-    const problem = String.fromCharCode(this.randomInt(0,3) + 'a'.charCodeAt(0));
+    const contest = this.randomInt(212,232);
+    const problem = String.fromCharCode(this.randomInt(0,4) + 'a'.charCodeAt(0));
     console.log("コンテスト:" + contest + " 問題:" + problem);
 
     this.setState({url: "https://atcoder.jp/contests/abc" + contest + "/tasks/abc" + contest + "_" + problem});
