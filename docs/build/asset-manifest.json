@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AtCoder_URL_Maker/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/AtCoder_URL_Maker/static/js/main.9a9dd3e6.chunk.js",
-    "main.js.map": "/AtCoder_URL_Maker/static/js/main.9a9dd3e6.chunk.js.map",
+    "main.js": "/AtCoder_URL_Maker/static/js/main.a28ec901.chunk.js",
+    "main.js.map": "/AtCoder_URL_Maker/static/js/main.a28ec901.chunk.js.map",
     "runtime-main.js": "/AtCoder_URL_Maker/static/js/runtime-main.57ace679.js",
     "runtime-main.js.map": "/AtCoder_URL_Maker/static/js/runtime-main.57ace679.js.map",
     "static/js/2.be938770.chunk.js": "/AtCoder_URL_Maker/static/js/2.be938770.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.57ace679.js",
     "static/js/2.be938770.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.9a9dd3e6.chunk.js"
+    "static/js/main.a28ec901.chunk.js"
   ]
 }
