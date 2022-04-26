@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   handleClick(){
-    const contest = this.randomInt(212,232);
+    const contest = this.randomInt(212,249);
     const problem = String.fromCharCode(this.randomInt(0,4) + 'a'.charCodeAt(0));
     console.log("コンテスト:" + contest + " 問題:" + problem);
 
