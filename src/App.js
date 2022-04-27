@@ -23,8 +23,9 @@ class App extends React.Component {
   render(){
     return(
       <div>
-        <h3>AtCoder URL Maker</h3>
+        <h3>AtCoder URL Maker(LT用)</h3>
         <p>令和ABCのA~D問題のURLがランダムに生成されます</p>
+        <h1>発表時間中にACできたら勝ち！</h1>
         <div><a href={this.state.url}>{this.state.url}</a></div>
         <button onClick={() => {this.handleClick()}}>リンク生成</button>
       </div>
